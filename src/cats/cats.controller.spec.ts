@@ -12,7 +12,7 @@ describe('CatsController', () => {
     controller = module.get<CatsController>(CatsController);
   });
 
-  it('should return "Hello World! Nest.js!!"', () => {
+  it('should return "This action returns all cats"', () => {
     expect(controller.findAll()).toBe('This action returns all cats');
   });
 });
