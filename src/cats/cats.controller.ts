@@ -1,3 +1,6 @@
+/**
+ * 単一ルートのコントローラの基本的なサンプル。
+ */
 import { Controller, Get } from '@nestjs/common';
 
 @Controller('cats')
